@@ -1,8 +1,9 @@
 import  {PopularProducts, SuperQuality, SpecialOffer, Services, CustomerReviews, Subscribe, Hero, Footer} from './Sections';
+import Nav from './Components/nav';
 
   const App = () => (
   <main className="relative">
-     {/* <Nav /> */} 
+      <Nav /> 
     <section className="x1:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
